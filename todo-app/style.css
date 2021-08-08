@@ -1,94 +1,93 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background: linear-gradient(rgb(174, 233, 213), rgb(138, 194, 211));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(rgb(174, 233, 213), rgb(138, 194, 211));
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    font-size: 3rem;
-    color: rgb(53, 135, 160);
+  font-size: 3rem;
+  color: rgb(53, 135, 160);
 }
 
 .fas {
-    padding: 20px;
-    color: rgb(53, 135, 160);
-
+  padding: 20px;
+  color: rgb(53, 135, 160);
 }
 
 h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 p {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 input {
-    width: 100%;
-    padding: 10px;
-    border: 5px solid rgb(85, 187, 200);
-    border-radius: 10px;
-    box-shadow: 15px 15px 30px 5px rgb(85, 151, 163);
+  width: 100%;
+  padding: 10px;
+  border: 5px solid rgb(85, 187, 200);
+  border-radius: 10px;
+  box-shadow: 15px 15px 30px 5px rgb(85, 151, 163);
 }
 
 input ::placeholder {
-    color: #333;
-
+  color: #333;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    border: 5px solid #fff;
-    border-radius: 10px;
-    margin-top: 20px;
-    cursor: pointer;
-    color: #fff;
-    background: rgb(3, 161, 161);
+  width: 100%;
+  padding: 10px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(3, 161, 161);
 }
 
 button:hover {
-    background: rgb(94, 187, 190);
-    box-shadow: 15px 15px 30px 10px rgb(85, 151, 163);
+  background: rgb(94, 187, 190);
+  box-shadow: 15px 15px 30px 10px rgb(85, 151, 163);
 }
 
 #contianer-todo {
-    background: #fff;
-    color: #333;
-    margin: 20px;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 5px 28px rgb(0, 0, 0);
+  background: #fff;
+  color: #333;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 5px 28px rgb(0, 0, 0);
 }
 
 .val-p {
-    color: #333;
-    padding: 10px;
-    margin: 10px;
-    background: rgb(191, 224, 230);
-    position: relative;
+  color: #333;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(191, 224, 230);
+  position: relative;
 }
 
 .fa-times-circle {
-    background-color: rgb(0, 184, 184);
-    color: #fff;
-    padding: 5px;
-    border-radius: 50%;
-    position: absolute;
-    right: 316px;
-    top: 470px;
-    display: none;
+  background-color: rgb(0, 184, 184);
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 316px;
+  top: 470px;
+  display: none;
+  cursor: pointer;
 }
