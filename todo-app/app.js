@@ -12,5 +12,7 @@ button.addEventListener("click", function () {
 
   faCircle.addEventListener("click", function () {
     val.remove("val-p");
+    console.log(val);
   });
+  input.value = "";
 });
